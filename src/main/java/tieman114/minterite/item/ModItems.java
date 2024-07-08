@@ -9,13 +9,11 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import tieman114.minterite.Minterite_Fabric;
 
-public class ModItem {
+public class ModItems {
+
+    
 
     public static final Item MINT_LEAVES = registerItem(new Item(new Item.Settings().food(FoodComponents.APPLE)),"mint_leaves");
-
-
-
-
 
     public static Item registerItem(Item item, String id) {
 		return Registry.register(Registries.ITEM, Identifier.of(Minterite_Fabric.MOD_ID, id), item);
@@ -24,7 +22,7 @@ public class ModItem {
     public static void registerModItems() {
         // Register the item
         Minterite_Fabric.LOGGER.info("Registering Mod Items for " + Minterite_Fabric.MOD_ID);
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register((itemGroup) -> itemGroup.add(ModItem.MINT_LEAVES));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register((itemGroup) -> itemGroup.add(ModItems.MINT_LEAVES));
 
 
     }

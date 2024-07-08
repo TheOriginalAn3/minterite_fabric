@@ -10,7 +10,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import tieman114.minterite.Minterite_Fabric;
 
-public class ModBlock {
+public class ModBlocks {
 
     public static final Block MINT_LEAVES_BLOCK = registerModBlocks(new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.AZALEA_LEAVES)),"mint_leaves_block", true);
 

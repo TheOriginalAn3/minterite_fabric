@@ -24,5 +24,6 @@
     "item.minterite_fabric.flowerpower_hoe": "Flowerpower Hoe",
   
     "creativetab.tutorial_tab": "Tutorial Tab",
-    "creativetab.minterite_tab": "Minterite Tab"
+    "creativetab.minterite_tab": "Minterite Tab",
+    "itemGroup.minterite_fabric": "Minterite Tab"
   }
