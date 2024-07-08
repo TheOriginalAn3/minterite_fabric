@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"tieman114.miterite.Minterite_Fabric"
+			"tieman114.minterite.Minterite_Fabric"
 		],
 		"client": [
-			"tieman114.miterite.Minterite_FabricClient"
+			"tieman114.minterite.Minterite_FabricClient"
 		],
 		"fabric-datagen": [
-			"tieman114.miterite.Minterite_FabricDataGenerator"
+			"tieman114.minterite.Minterite_FabricDataGenerator"
 		]
 	},
 	"mixins": [
