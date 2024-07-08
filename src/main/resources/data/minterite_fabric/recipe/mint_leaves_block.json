@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minterite_fabric:mint_leaves"
+        },
+        {
+            "item": "minterite_fabric:mint_leaves"
+        },
+        {
+            "item": "minterite_fabric:mint_leaves"
+        },
+        {
+            "item": "minterite_fabric:mint_leaves"
+        }
+    ],
+    "result": {
+        "id": "minterite_fabric:mint_leaves_block",
+        "count": 1
+    }
+}

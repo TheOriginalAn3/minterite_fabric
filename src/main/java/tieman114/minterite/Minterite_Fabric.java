@@ -1,6 +1,8 @@
 package tieman114.minterite;
 
 import net.fabricmc.api.ModInitializer;
+import tieman114.minterite.block.ModBlock;
+import tieman114.minterite.item.ModItem;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,6 +19,9 @@ public class Minterite_Fabric implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
+
+		ModItem.registerModItems();
+		ModBlock.registerModBlocks();
 
 		LOGGER.info("Hello Fabric world!");
 	}

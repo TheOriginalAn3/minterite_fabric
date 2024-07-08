@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": { "model": "minterite_fabric:block/mint_leaves_block" }
+    }
+}

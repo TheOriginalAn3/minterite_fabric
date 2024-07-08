@@ -1,0 +1,28 @@
+{
+    "item.mod_id.sapphire": "Sapphire",
+    "item.mod_id.raw_sapphire": "Raw Sapphire",
+    
+    "item.mod_id.mint_leaves": "Mint Leaves",
+    "item.mod_id.flowerpower": "Flower Power",
+    "item.mod_id.gum": "Gum",
+  
+    "item.mod_id.extra_sword": "Extra Sword",
+    "item.mod_id.mint_pickaxe": "Mint Pickaxe",
+    "item.mod_id.mint_axe": "Mint Axe",
+    "item.mod_id.mint_shovel": "Mint Shovel",
+    "item.mod_id.rare_mint_leaf": "Rare Mint Leaf",
+    "item.mod_id.mint_hoe": "Mint Hoe",
+    "block.mod_id.mint_block": "Block of Mint",
+    "block.mod_id.mint_leaves_block": "Block of Mint Leaves",
+  
+  
+  
+    "item.mod_id.flowerpower_sword": "Flowerpower Sword",
+    "item.mod_id.flowerpower_pickaxe": "Flowerpower Pickaxe",
+    "item.mod_id.flowerpower_axe": "Flowerpower Axe",
+    "item.mod_id.flowerpower_shovel": "Flowerpower Shovel",
+    "item.mod_id.flowerpower_hoe": "Flowerpower Hoe",
+  
+    "creativetab.tutorial_tab": "Tutorial Tab",
+    "creativetab.minterite_tab": "Minterite Tab"
+  }
