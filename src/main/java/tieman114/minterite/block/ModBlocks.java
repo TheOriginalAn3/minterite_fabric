@@ -12,28 +12,27 @@ import tieman114.minterite.Minterite_Fabric;
 
 public class ModBlocks {
 
-    public static final Block MINT_LEAVES_BLOCK = registerModBlocks(new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.AZALEA_LEAVES)),"mint_leaves_block", true);
+    // JUMP: Register Mod Blocks
+    public static final Block MINT_LEAVES_BLOCK = registerModBlocks(
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.AZALEA_LEAVES)), "mint_leaves_block",
+            true);
 
-
-
-
-
-
+    // Helper methods
     public static Block registerModBlocks(Block block, String name, boolean shouldRegisterItem) {
         // Register the block and its item.
         Identifier id = Identifier.of(Minterite_Fabric.MOD_ID, name);
-    
+
         // Sometimes, you may not want to register an item for the block.
         // Eg: if it's a technical block like `minecraft:air` or `minecraft:end_gateway`
         if (shouldRegisterItem) {
             BlockItem blockItem = new BlockItem(block, new Item.Settings());
             Registry.register(Registries.ITEM, id, blockItem);
         }
-    
+
         return Registry.register(Registries.BLOCK, id, block);
     }
 
     public static void registerModBlocks() {
-        
+
     }
 }
