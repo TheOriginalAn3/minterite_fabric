@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-      "all": "minterite_fabric:block/mint_leaves_block"
-  }
-}

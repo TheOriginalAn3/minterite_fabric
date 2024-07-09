@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "minteritemod:block/mint_block"
+    "all": "minterite_fabric:block/mint_leaves_block"
   }
 }
